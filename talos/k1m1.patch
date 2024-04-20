@@ -18,6 +18,8 @@ machine:
               - bind
               - rshared
               - rw
+  install:
+    disk: /dev/mmcblk0
   nodeLabels:
     wk: kadm
   files:

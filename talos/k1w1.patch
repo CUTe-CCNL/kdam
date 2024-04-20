@@ -20,7 +20,8 @@ machine:
               - rw
 #    install:
 #      image: factory.talos.dev/installer/c527b6b20fb22847304656677e9bd4c4055dfcce95f3385da5db80e35f5fa1dc:v1.6.5
-
+    install:
+      disk: /dev/mmcblk0
     nodeLabels:
       minio: node
 
