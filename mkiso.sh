@@ -1,6 +1,6 @@
 #!/bin/bash
 
-[ -d ~/k1/iso ] && sudo rm -r ~/k1/iso/* &>/dev/null
+[ -d ~/iso ] && sudo rm -r ~/iso/* &>/dev/null
 
 tkver="1.6.7"
 netid="172.22.1"
