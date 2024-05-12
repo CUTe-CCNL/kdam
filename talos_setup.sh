@@ -1,6 +1,8 @@
 #!/bin/bash
 
-tv=1.6.7
+source ./variable.sh
+
+tv=$tkver
 
 if ([ "$1" == "" ] || ([ "$1" != "basic" ] && [ "$1" != "minio" ] && [ "$1" != "dt" ] && [ "$1" != "cicd" ]) ); then
    echo "1m2w.sh <type>"
