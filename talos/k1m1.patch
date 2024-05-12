@@ -69,10 +69,9 @@ cluster:
           ipvs-strict-arp: true
     extraManifests:
       - https://raw.githubusercontent.com/metallb/metallb/v0.14.3/config/manifests/metallb-native.yaml
-      - http://www.oc99.org/wk/kadm/kube-mlb-config.yaml
+      - https://dl.ccnl.cloud/script/bin/kube2-mlb-config.yaml
       - https://raw.githubusercontent.com/alex1989hu/kubelet-serving-cert-approver/main/deploy/standalone-install.yaml
       - https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
-#      - http://www.oc99.org/wk/kadm/kube-kadm-dkreg.yaml
     inlineManifests:
       - name: namespace-longhorn-system
         contents: |-
